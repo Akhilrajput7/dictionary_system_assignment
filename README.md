@@ -25,13 +25,13 @@ A backend-only dictionary system built with **Node.js, Express.js, and MongoDB**
 backend/
 ├── src/
 │   ├── config/
-│   │   └── db.js
+│   │   └── database.js
 │   ├── controllers/
-│   │   └── dictionaryController.js
+│   │   └── dictionary.controller.js
 │   ├── models/
-│   │   └── Word.js
+│   │   └── Word.model.js
 │   ├── routes/
-│   │   └── dictionaryRoutes.js
+│   │   └── dictionary.routes.js
 │   ├── app.js
 │   └── server.js
 ├── .env
